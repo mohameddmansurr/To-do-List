@@ -36,3 +36,9 @@ function renderTasks() {
     taskList.appendChild(li);
   });
 }
+
+function handleKeyDown(event) {
+  if (event.key === "Enter") {
+    addTask();
+  }
+}
